@@ -13,6 +13,14 @@
 		C949DDC2258652DD00F19E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C949DDAD258652DC00F19E86 /* ContentView.swift */; };
 		C949DDC3258652DD00F19E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C949DDAE258652DD00F19E86 /* Assets.xcassets */; };
 		C949DDC4258652DD00F19E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C949DDAE258652DD00F19E86 /* Assets.xcassets */; };
+		C9B7D4A7258A620D0002797C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4A6258A620D0002797C /* SidebarView.swift */; };
+		C9B7D4A8258A620D0002797C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4A6258A620D0002797C /* SidebarView.swift */; };
+		C9B7D4B6258A62420002797C /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B3258A62420002797C /* LineChartView.swift */; };
+		C9B7D4B7258A62420002797C /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B3258A62420002797C /* LineChartView.swift */; };
+		C9B7D4B8258A62420002797C /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B4258A62420002797C /* BarChartView.swift */; };
+		C9B7D4B9258A62420002797C /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B4258A62420002797C /* BarChartView.swift */; };
+		C9B7D4BA258A62420002797C /* DoughnutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B5258A62420002797C /* DoughnutChartView.swift */; };
+		C9B7D4BB258A62420002797C /* DoughnutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7D4B5258A62420002797C /* DoughnutChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,10 @@
 		C949DDBB258652DD00F19E86 /* BetterBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C949DDBD258652DD00F19E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C949DDBE258652DD00F19E86 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C9B7D4A6258A620D0002797C /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		C9B7D4B3258A62420002797C /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		C9B7D4B4258A62420002797C /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		C9B7D4B5258A62420002797C /* DoughnutChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoughnutChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,8 @@
 			children = (
 				C949DDAC258652DC00F19E86 /* BetterBudgetApp.swift */,
 				C949DDAD258652DC00F19E86 /* ContentView.swift */,
+				C9B7D4A6258A620D0002797C /* SidebarView.swift */,
+				C9B7D4B2258A62420002797C /* Charts */,
 				C949DDAE258652DD00F19E86 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -88,6 +102,16 @@
 				C949DDBE258652DD00F19E86 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		C9B7D4B2258A62420002797C /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7D4B3258A62420002797C /* LineChartView.swift */,
+				C9B7D4B4258A62420002797C /* BarChartView.swift */,
+				C9B7D4B5258A62420002797C /* DoughnutChartView.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +213,10 @@
 			files = (
 				C949DDC1258652DD00F19E86 /* ContentView.swift in Sources */,
 				C949DDBF258652DD00F19E86 /* BetterBudgetApp.swift in Sources */,
+				C9B7D4B8258A62420002797C /* BarChartView.swift in Sources */,
+				C9B7D4BA258A62420002797C /* DoughnutChartView.swift in Sources */,
+				C9B7D4A7258A620D0002797C /* SidebarView.swift in Sources */,
+				C9B7D4B6258A62420002797C /* LineChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +226,10 @@
 			files = (
 				C949DDC2258652DD00F19E86 /* ContentView.swift in Sources */,
 				C949DDC0258652DD00F19E86 /* BetterBudgetApp.swift in Sources */,
+				C9B7D4B9258A62420002797C /* BarChartView.swift in Sources */,
+				C9B7D4BB258A62420002797C /* DoughnutChartView.swift in Sources */,
+				C9B7D4A8258A620D0002797C /* SidebarView.swift in Sources */,
+				C9B7D4B7258A62420002797C /* LineChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
